@@ -17,6 +17,7 @@ export function Service(){
                     <Button className="bg-white text-purple-800 hover:bg-purple-50">
                         Sessão Presencial
                     </Button>
+                    {/* <span>jncdjlncljdnlndljn</span> */}
                   </div>
 
         </Section>

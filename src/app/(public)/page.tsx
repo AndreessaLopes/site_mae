@@ -1,9 +1,11 @@
+import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { About } from "@/components/sections/about";
 import { Depoiments } from "@/components/sections/depoiments";
 import { Hero } from "@/components/sections/hero";
 import { HowItWorks } from "@/components/sections/how-it-works";
 import { Laws } from "@/components/sections/laws";
+import { QuestionsFrequency } from "@/components/sections/questions_frequency";
 import { Service } from "@/components/sections/service";
 import { Transformations } from "@/components/sections/transformations";
 
@@ -18,6 +20,8 @@ export default function Home() {
       <Transformations />
       <Depoiments />
       <Service />
+      <QuestionsFrequency />
+      <Footer />
     </div>
   );
 }
