@@ -1,18 +1,25 @@
 import { LucideIcon } from "lucide-react";
 import { ReactNode } from "react";
+import clsx from "clsx";
 
 interface CardProps {
   icon: LucideIcon;
   title: string;
-  children: ReactNode;
+  children?: ReactNode;
+  className?: string;
 }
 
-export function Card({ icon: Icon, title, children }: CardProps) {
+export function Card({ icon: Icon, title, children, className }: CardProps) {
   return (
-    <div className="rounded-2xl border p-6 shadow-sm hover:shadow-md transition bg-purple-50/90">
-      <Icon className="bg-white h-10 w-10 text-purple-950/50 mb-4 rounded-xl" />
-      <h3 className="text-xl font-semibold mb-2 text-purple-900">{title}</h3>
-      <p className="text-muted-foreground text-purple-800">{children}</p>
+    <div
+      className={clsx(
+        "rounded-2xl border border-purple-100 bg-purple-50/90 p-6 shadow-sm transition hover:shadow-md",
+        className
+      )}
+    >
+      <Icon className="mb-4 h-10 w-10 rounded-xl bg-purple-100/30 p-2 text-purple-800" />
+      <h3 className="mb-2 text-xl font-semibold text-purple-900">{title}</h3>
+      {children && <p className="text-medium text-purple-800/90">{children}</p>}
     </div>
   );
 }

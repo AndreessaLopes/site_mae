@@ -35,15 +35,15 @@ export function Laws() {
       className="bg-purple-50/70"
     >
       <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-3">
-        <Card icon={Shield} title="Pertencimento">
+        <Card icon={Shield} title="Pertencimento" className="bg-white">
           Todos têm direito de pertencer; quando alguém é excluído, o sistema
           busca compensações.
         </Card>
-        <Card icon={HierarchyIcon} title="Hierarquia">
+        <Card icon={HierarchyIcon} title="Hierarquia" className="bg-white">
           Honrar quem veio antes. Pais antes dos filhos; antigos antes dos
           novos.
         </Card>
-        <Card icon={Flower} title="Equilíbrio da Troca">
+        <Card icon={Flower} title="Equilíbrio da Troca" className="bg-white">
           Dar e receber na medida certa fortalece os vínculos e restabelece o
           fluxo saudável nas relações.
         </Card>
