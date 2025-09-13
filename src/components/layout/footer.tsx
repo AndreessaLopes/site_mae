@@ -7,11 +7,11 @@ export function Footer() {
           Sistêmica
         </p>
         <div className="flex items-center gap-4 text-sm text-purple-900/70">
-          <a href="#" className="hover:text-purple-900">
+          <a href="https://www.instagram.com/rosangelalopesterapeuta/" className="hover:text-purple-900">
             Instagram
           </a>
           <span>•</span>
-          <a href="#" className="hover:text-purple-900">
+          <a href="https://api.whatsapp.com/send?phone=5537999732842" className="hover:text-purple-900">
             WhatsApp
           </a>
           <span>•</span>

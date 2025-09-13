@@ -26,7 +26,7 @@ export function Hero() {
 
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
-              href="#agendar"
+              href="#service"
               className="rounded-xl bg-purple-700 px-6 py-3 text-white font-medium shadow hover:bg-purple-800 transition-colors"
             >
               Marcar Consulta
