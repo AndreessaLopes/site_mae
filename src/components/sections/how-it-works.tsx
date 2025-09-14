@@ -9,18 +9,26 @@ export function HowItWorks() {
       title="Como funciona a sessão?"
       subtitle="Online ou presencial, com duração de até 2 horas. Um espaço seguro, sigiloso e respeitoso ao seu ritmo."
     >
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 px-4">
-        <Card icon={CalendarDays} title="Antes da sessão">
-          Escolha um ambiente calmo (para online), prefira computador se possível,
-          tenha água, papel e caneta.
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <Card icon={CalendarDays} title="Antes da sessão" className="p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Escolha um ambiente calmo (para online), prefira computador se possível,
+            tenha água, papel e caneta.
+          </p>
         </Card>
-        <Card icon={Sparkles} title="Durante a sessão">
-          Recursos como bonecos, cristais, cartas ou constelação na água — conforme
-          sua necessidade.
+
+        <Card icon={Sparkles} title="Durante a sessão" className="p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Recursos como bonecos, cristais, cartas ou constelação na água — conforme
+            sua necessidade.
+          </p>
         </Card>
-        <Card icon={Droplets} title="Após a sessão">
-          Evite comentar por 7 dias. Permita que as percepções se assentem. Beba
-          água e descanse.
+
+        <Card icon={Droplets} title="Após a sessão" className="p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Evite comentar por 7 dias. Permita que as percepções se assentem. Beba
+            água e descanse.
+          </p>
         </Card>
       </div>
     </Section>

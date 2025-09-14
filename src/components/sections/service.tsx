@@ -1,5 +1,5 @@
-import { Button } from "../ui/button"
-import { Section } from "../ui/section"
+import { Button } from "../ui/button";
+import { Section } from "../ui/section";
 
 export function Service() {
   return (
@@ -9,7 +9,7 @@ export function Service() {
       subtitle="Escolha a forma de atendimento e reserve sua sessão."
       className="bg-purple-50/70"
     >
-      <div className="mx-auto grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-2 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Button className="w-full bg-white text-purple-800 hover:bg-purple-100 transition-colors">
           Sessão Online
         </Button>
@@ -18,5 +18,5 @@ export function Service() {
         </Button>
       </div>
     </Section>
-  )
+  );
 }

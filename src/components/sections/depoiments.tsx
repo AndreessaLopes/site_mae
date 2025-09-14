@@ -8,7 +8,6 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "../ui/carousel";
-//className="flex items-center flex-col usar se quiser alinhar os depoimentos
 
 export function Depoiments() {
   return (
@@ -17,27 +16,30 @@ export function Depoiments() {
       title="Histórias que se transformaram"
       subtitle="Pessoas que olharam com coragem e encontraram paz."
     >
-      <Carousel autoplayDelay={6000} className="w-full max-w-4xl mx-auto">
-        <CarouselContent>
-          <CarouselItem>
-            <Card icon={Heart} title="Ana S."> 
-              Saí leve. Foi um divisor de águas.
-            </Card>
-          </CarouselItem>
-          <CarouselItem>
-            <Card icon={Heart} title="Bruno M.">
-              Consegui perdoar meu pai.
-            </Card>
-          </CarouselItem>
-          <CarouselItem>
-            <Card icon={Heart} title="Carla R.">
-              Encontrei minha verdadeira essência.
-            </Card>
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
+      <div className="px-4 sm:px-6">
+        <Carousel autoplayDelay={6000} className="w-full mx-auto sm:max-w-3xl md:max-w-4xl">
+          <CarouselContent>
+            <CarouselItem>
+              <Card icon={Heart} title="Ana S." className="p-4 sm:p-6">
+                <p className="text-sm sm:text-base text-center">Saí leve. Foi um divisor de águas.</p>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card icon={Heart} title="Bruno M." className="p-4 sm:p-6">
+                <p className="text-sm sm:text-base text-center">Consegui perdoar meu pai.</p>
+              </Card>
+            </CarouselItem>
+            <CarouselItem>
+              <Card icon={Heart} title="Carla R." className="p-4 sm:p-6">
+                <p className="text-sm sm:text-base text-center">Encontrei minha verdadeira essência.</p>
+              </Card>
+            </CarouselItem>
+          </CarouselContent>
+
+          <CarouselPrevious className="sm:-left-6" />
+          <CarouselNext className="sm:-right-6" />
+        </Carousel>
+      </div>
     </Section>
   );
 }

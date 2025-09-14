@@ -7,7 +7,7 @@ import { SafeLogo } from "@/components/ui/safe-logo";
 export function Hero() {
   return (
     <section className="relative overflow-hidden pt-20 sm:pt-24 bg-gradient-to-b from-white to-purple-50">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 sm:py-20 md:grid-cols-2">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-16 sm:py-20">
         
         {/* Texto */}
         <div className="text-center md:text-left">
@@ -40,14 +40,14 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="mt-6 text-sm sm:text-base italic text-purple-900/70">
+          <p className="mt-6 text-sm sm:text-base italic text-purple-900/70 max-w-md mx-auto md:mx-0">
             “Que ninguém te faça duvidar... Tu és o sonho de todos os teus antepassados.”  
             <br /> — Bert Hellinger
           </p>
         </div>
 
         {/* Logo / Imagem */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center mt-10 md:mt-0">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

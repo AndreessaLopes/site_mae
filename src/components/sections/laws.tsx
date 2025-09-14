@@ -34,18 +34,26 @@ export function Laws() {
       subtitle="Princípios de Bert Hellinger que orientam a ordem do amor."
       className="bg-purple-50/70"
     >
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 px-4">
-        <Card icon={Shield} title="Pertencimento" className="bg-white">
-          Todos têm direito de pertencer; quando alguém é excluído, o sistema
-          busca compensações.
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <Card icon={Shield} title="Pertencimento" className="bg-white p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Todos têm direito de pertencer; quando alguém é excluído, o sistema
+            busca compensações.
+          </p>
         </Card>
-        <Card icon={HierarchyIcon} title="Hierarquia" className="bg-white">
-          Honrar quem veio antes. Pais antes dos filhos; antigos antes dos
-          novos.
+
+        <Card icon={HierarchyIcon} title="Hierarquia" className="bg-white p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Honrar quem veio antes. Pais antes dos filhos; antigos antes dos
+            novos.
+          </p>
         </Card>
-        <Card icon={Flower} title="Equilíbrio da Troca" className="bg-white">
-          Dar e receber na medida certa fortalece os vínculos e restabelece o
-          fluxo saudável nas relações.
+
+        <Card icon={Flower} title="Equilíbrio da Troca" className="bg-white p-4 sm:p-6">
+          <p className="text-sm sm:text-base">
+            Dar e receber na medida certa fortalece os vínculos e restabelece o
+            fluxo saudável nas relações.
+          </p>
         </Card>
       </div>
     </Section>
