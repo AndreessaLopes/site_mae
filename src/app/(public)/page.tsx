@@ -17,63 +17,63 @@ export default function Home() {
 
       <main className="flex flex-col w-full">
         {/* Hero */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Hero />
           </div>
         </section>
 
         {/* About */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <About />
           </div>
         </section>
 
         {/* Laws */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Laws />
           </div>
         </section>
 
         {/* How It Works */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <HowItWorks />
           </div>
         </section>
 
         {/* Transformations */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Transformations />
           </div>
         </section>
 
         {/* Depoiments */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Depoiments />
           </div>
         </section>
 
         {/* Service */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Service />
           </div>
         </section>
 
         {/* Questions Frequency */}
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <QuestionsFrequency />
           </div>
         </section>
 
-        <section className="w-full">
-          <div className="mx-auto">
+        <section className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl">
             <Contact />
           </div>
         </section>
