@@ -11,7 +11,7 @@ import { Transformations } from "@/components/sections/transformations";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col w-full  min-w-screen">
       <Header />
       <Hero />
       <About />

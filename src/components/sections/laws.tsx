@@ -9,7 +9,7 @@ const HierarchyIcon = forwardRef<SVGSVGElement, React.SVGProps<SVGSVGElement>>(
       <svg
         ref={ref}
         viewBox="0 0 24 24"
-        className="h-5 w-5 text-purple-800"
+        className="h-6 w-6 text-purple-800"
         {...props}
       >
         <circle cx="12" cy="4" r="2" />
@@ -34,7 +34,7 @@ export function Laws() {
       subtitle="Princípios de Bert Hellinger que orientam a ordem do amor."
       className="bg-purple-50/70"
     >
-      <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 px-4">
         <Card icon={Shield} title="Pertencimento" className="bg-white">
           Todos têm direito de pertencer; quando alguém é excluído, o sistema
           busca compensações.
