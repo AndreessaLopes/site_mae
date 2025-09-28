@@ -37,7 +37,7 @@ export function Laws() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <Card icon={Shield} title="Pertencimento" className="bg-white p-4 sm:p-6">
           <p className="text-sm sm:text-base">
-            Todos têm direito de pertencer; quando alguém é excluído, o sistema
+            Todos têm direito de pertencer; quando alguém é ou sente a exclusão, o sistema
             busca compensações.
           </p>
         </Card>

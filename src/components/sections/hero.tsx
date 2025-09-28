@@ -30,7 +30,7 @@ export function Hero() {
               href="#service"
               className="w-full sm:w-auto text-center rounded-xl bg-purple-700 px-6 py-3 text-white font-medium shadow hover:bg-purple-800 transition-colors"
             >
-              Marcar Consulta
+              Agendar sessão
             </a>
             <a
               href="#sobre"

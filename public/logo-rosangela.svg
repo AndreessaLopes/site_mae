@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120" role="img" aria-labelledby="title desc">
+  <title id="title">Rosângela — Constelação Sistêmica</title>
+  <desc id="desc">Logo com mandala floral e tipografia Playfair Display</desc>
+
+  <!-- Mandala -->
+  <g transform="translate(30,60)" stroke="#820AD1" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="0" cy="0" r="20"/>
+    <path d="M0,-20 C5,-10 15,-10 20,0 C15,10 5,10 0,20 C-5,10 -15,10 -20,0 C-15,-10 -5,-10 0,-20 Z"/>
+    <path d="M0,-20 C8,-8 8,8 0,20 C-8,8 -8,-8 0,-20 Z" transform="rotate(45)"/>
+    <path d="M0,-20 C5,-10 15,-10 20,0 C15,10 5,10 0,20 C-5,10 -15,10 -20,0 C-15,-10 -5,-10 0,-20 Z" transform="rotate(90)"/>
+    <path d="M0,-20 C8,-8 8,8 0,20 C-8,8 -8,-8 0,-20 Z" transform="rotate(135)"/>
+  </g>
+
+  <!-- Nome -->
+  <text x="90" y="65" font-family="'Playfair Display', Georgia, serif" font-size="40" fill="#820AD1" font-weight="600">
+    Rosângela
+  </text>
+
+  <!-- Tagline -->
+  <text x="90" y="90" font-family="Inter, Arial, sans-serif" font-size="16" fill="#4A4A4A" letter-spacing="2">
+    CONSTELAÇÃO SISTÊMICA
+  </text>
+</svg>

@@ -14,7 +14,7 @@ export function Depoiments() {
     <Section
       id="depoimentos"
       title="Histórias que se transformaram"
-      subtitle="Pessoas que olharam com coragem e encontraram paz."
+      subtitle="Pessoas que olharam com coragem e encontraram sua ordem e suas transformações."
     >
       <div className="px-4 sm:px-6">
         <Carousel autoplayDelay={6000} className="w-full mx-auto sm:max-w-3xl md:max-w-4xl">
